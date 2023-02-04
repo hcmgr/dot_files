@@ -129,19 +129,6 @@ alias cl="clear"
 alias c="cd ../"
 alias cc="cd ../../"
 
-
-#Project-specific
-alias beh="cd ~/csiro/behaviour_rl"
-alias exp="cd /scratch1/rac018/results/anymal_cmd_mj/"
-alias hexp="cd /hpc-scratch/rac018/results/anymal_cmd_mj/"
-
-#hpc
-alias hpc="ssh hpc" # login to hpc
-alias tb="~/csiro/behaviour_rl/misc/tensor.sh"
-alias htb="~/csiro/behaviour_rl/misc/hpc_tensor.sh"
-
 #################
 # Env variables #
 #################
-export CUDA_VISIBLE_DEVICES=0,2
-export CUDA_PATH=/usr
