@@ -118,17 +118,27 @@ fi
 
 
 ################
-#CUSTOM ALIASES#
+# ALIASES
 ################
-
 # General
-alias py_act='source ./venv/bin/activate'
-alias dea='deactivate'
-alias p3="python3"
 alias cl="clear"
 alias c="cd ../"
 alias cc="cd ../../"
+alias l="ls"
+alias ll="ls -ali"
 
-#################
-# Env variables #
-#################
+# Git
+alias gb="git branch"
+alias gs="git status"
+alias gl="git log"
+
+# Python
+alias py_act='source ./venv/bin/activate'
+alias dea='deactivate'
+alias p3="python3"
+
+# machine-specific
+alias ra="cd ~/racky"
+alias src="cd /usr/src"
+alias lin="cd /usr/src/linux-source*/"
+
