@@ -137,8 +137,3 @@ alias py_act='source ./venv/bin/activate'
 alias dea='deactivate'
 alias p3="python3"
 
-# machine-specific
-alias ra="cd ~/racky"
-alias src="cd /usr/src"
-alias lin="cd /usr/src/linux-source*/"
-
