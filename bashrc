@@ -137,16 +137,18 @@ alias py_act='source ./venv/bin/activate'
 alias dea='deactivate'
 alias p3="python3"
 
+# Rust
+alias cb="cargo build"
+alias cr="cargo run"
+
 # nav shortcuts
 alias src="cd /usr/src"
 alias down="cd ~/Downloads"
 
-# machine-specific
-alias ra="cd ~/racky"
-alias lin="cd /usr/src/linux-source*/"
-
-#PS1='\[\e[1;32m\]\u@\h:\w\[\e[m\]$ '
+# nav prefix
 PS1='\[\e[1;32m\]\u@\h:\[\e[1;34m\]\w\[\e[m\]$ '
 
+# directory color
+export LS_OPTIONS='--color=auto'
+alias ls='ls $LS_OPTIONS'
 
-echo -n -e '\e[?17;14;224c'
