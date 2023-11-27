@@ -118,9 +118,9 @@ fi
 
 
 ################
-# ALIASES
+# Custom stuff
 ################
-# General
+# general
 alias cl="clear"
 alias c="cd ../"
 alias cc="cd ../../"
@@ -140,6 +140,11 @@ alias p3="python3"
 # Rust
 alias cb="cargo build"
 alias cr="cargo run"
+export RUST_BACKTRACE=1
+
+#.NET
+export DOTNET_ROOT=$HOME/dotnet
+export PATH=$PATH:$HOME/dotnet
 
 # nav shortcuts
 alias src="cd /usr/src"
@@ -151,4 +156,5 @@ PS1='\[\e[1;32m\]\u@\h:\[\e[1;34m\]\w\[\e[m\]$ '
 # directory color
 export LS_OPTIONS='--color=auto'
 alias ls='ls $LS_OPTIONS'
+
 
