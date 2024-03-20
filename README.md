@@ -1,3 +1,3 @@
-# dot_files
-vimrc, bashrc etc.
+### Dot files
 
+###### vimrc, bashrc, tmux.conf, etc.

@@ -3,7 +3,7 @@ set background=dark
 syntax on
 set t_Co=256
 set showmatch
-colorscheme desert
+"colorscheme desert
 
 "INDENTATION"
 set tabstop=8
