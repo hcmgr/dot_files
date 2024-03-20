@@ -3,7 +3,6 @@ set background=dark
 syntax on
 set t_Co=256
 set showmatch
-"colorscheme desert
 
 "INDENTATION"
 set tabstop=8
@@ -17,6 +16,5 @@ filetype indent on
 set colorcolumn=80 
 highligh ColorColumn ctermbg=8 guibg=lightgrey
 set number "line numbers"
-
 set wildmenu
 set backspace=indent,eol,start
