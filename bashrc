@@ -5,8 +5,9 @@
 alias cl="clear"
 alias c="cd ../"
 alias cc="cd ../../"
-alias l="ls"
-alias ll="ls -ali"
+alias ls="ls --color=auto"
+alias l="ls --color=auto"
+alias ll="ls -ali --color=auto"
 
 # Git
 alias gb="git branch"
@@ -37,7 +38,6 @@ PS1='\[\e[1;32m\]\u@\h:\[\e[1;34m\]\w\[\e[m\]$ '
 
 # directory color
 LS_COLORS=$LS_COLORS:'di=1;34:' ; export LS_COLORS
-
 # random
 alias utime="date +%s" ## unix time
 
