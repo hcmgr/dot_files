@@ -1,4 +1,4 @@
 cat vimrc > ~/.vimrc
 cat bashrc > ~/.bashrc
-cat tmux.conf > ~/.tmux_conf
+cat tmux.conf > ~/.tmux.conf
 source ~/.bashrc
